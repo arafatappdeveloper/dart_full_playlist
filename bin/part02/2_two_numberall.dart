@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import 'package:io/io.dart';
-
 void main(){
 
   stdout.write(' Enter 1st number :');
@@ -14,11 +12,13 @@ void main(){
   int multiple= number1*number2;
   int minuse= number1-number2;
   double division= number1/number2;
+  double avarage=(number1+number2)/2;
 
   print(' Sum of two  number : ${sum}');
   print(' Multiple of two  number : ${multiple}');
   print(' Minus of two  number : ${minuse}');
-  print(' Division of two  number : ${division}');
+  print(' Division of two  number : ${division.toStringAsFixed(3)}');
+  print(' Avarage of two  number : ${avarage}');
 
 
 }

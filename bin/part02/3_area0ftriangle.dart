@@ -1,8 +1,5 @@
 import 'dart:io';
 
-import 'package:io/io.dart';
-
-
 void main(){
   stdout.write(' Enter height ; ');
   int height= int.parse(stdin.readLineSync()!);
